@@ -1,0 +1,185 @@
+---
+layout: default
+title: Welcome to my website | Joshua McSorley
+description:
+image:
+author:
+---
+
+<!--  HEADER -->
+<section id="header" class="dark">
+  <header>
+    <h1>Joshua McSorley</h1>
+    <p>Develop With Style</p>
+  </header>
+  <button href="#first" class="button scrolly">Core Competencies</button>
+</section>
+
+<!-- FEATURED ICONS 3 -->
+<section id="first" class="main">
+  <header>
+    <div class="container">
+      <h2>{{site.data.home.section-1.header.h2}}</h2>
+      <p>{{site.data.home.section-1.header.p}}</p>
+    </div>
+  </header>
+
+  <div class="content dark style1 featured">
+    <div class="container">
+      <div class="row">
+        {% for item in site.data.home.section-1.items %}
+        <div class="4u 12u(narrow)">
+          <section>
+            <span class="feature-icon"><span class="icon fa-{{item.icon}}"></span></span>
+            <header>
+              <h3>{{item.h}}</h3>
+            </header>
+            <p>{{item.p}}</p>
+          </section>
+        </div>
+        {%endfor%}
+      </div>
+
+      <div class="row">
+        <div class="12u">
+          <footer>
+            <a href="#second" class="button scrolly">{{site.data.home.section-1.button}}</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FEATURED IMAGES 6 -->
+<section id="second" class="main">
+  <header>
+    <div class="container">
+      <h2>Euismod sed feugiat lorem tempus magna</h2>
+      <p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
+      feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+    </div>
+  </header>
+  <div class="content dark style2">
+    <div class="container">
+      <div class="row">
+        <div class="4u 12u(narrow)">
+          <section>
+            <h3>Work Experience</h3>
+            <p>Managed, hired, trained, evaluated and advised a computer repair team. Created standard operating procedures based on industry standard best practices. Actively researched the latest technologies to provide clients with proficient technical consultations. Reviewed and discussed client technology issues and usage during technical consultations. Assessed clients request to determine if necessary to provide replacements and/or computer services. • Communicated with fellow technicians in order to expedite all client request. Created invoice database to maintain strong customer relationships.</p>
+            <footer>
+              <a href="#third" class="button scrolly">Accumsan nisi tempor</a>
+            </footer>
+          </section>
+        </div>
+        <div class="8u 12u(narrow)">
+          <div class="row">
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
+            <div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FEATURED LONG TEXT -->
+<section id="third" class="main">
+  <header>
+    <div class="container">
+      <h2>Ornare varius lorem ipsum ante lectus</h2>
+      <p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
+      feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+    </div>
+  </header>
+  <div class="content dark style3">
+    <div class="container">
+      <span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
+      <div class="row">
+        <div class="4u 12u(narrow)">
+          <h3>Diam vivamus turpis lorem sodales lectus ornare</h3>
+          <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
+          tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
+          vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
+          augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
+          lorem ipsum dolor placerat magna tempus feugiat.</p>
+          <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
+          accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
+          euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare varius
+          gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu
+          eget ornare et magna.</p>
+        </div>
+        <div class="4u 12u(narrow)">
+          <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
+          tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
+          vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
+          augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
+          lorem ipsum dolor placerat magna tempus feugiat.</p>
+          <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
+          accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
+          euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
+          Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
+          <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
+          accumsan vivamus augue cubilia.</p>
+        </div>
+        <div class="4u 12u(narrow)">
+          <p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui
+          lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc
+          euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
+          cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
+          lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod
+          est turpis sodales. Diam tempor dui lacinia dolore.</p>
+          <p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida
+          dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet
+          consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
+          <footer>
+            <a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FORM CONTACT -->
+<section id="fourth" class="main">
+  <header>
+    <div class="container">
+      <h2>Sed feugiat ipsum consequat</h2>
+      <p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
+      feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+    </div>
+  </header>
+  <div class="content style4 featured">
+    <div class="container 75%">
+      <form method="post" action="#">
+        <div class="row 50%">
+          <div class="6u 12u(mobile)"><input type="text" placeholder="Name" /></div>
+          <div class="6u 12u(mobile)"><input type="text" placeholder="Email" /></div>
+        </div>
+        <div class="row 50%">
+          <div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+        </div>
+        <div class="row">
+          <div class="12u">
+            <ul class="actions">
+              <li><input type="submit" class="button" value="Send Message" /></li>
+              <li><input type="reset" class="button alt" value="Clear Form" /></li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- BASIC ELEMENTS -->
+{% include form.html %}

@@ -1,0 +1,16 @@
+header:
+  h2: Education
+  p: QueensBorough Community College – Bayside, NY <br/> Associates of Applied Science in Internet Technology
+
+items:
+  - icon: clock-o
+    h: Attention to Detail
+    p: Sound understanding of standards, theories, concepts and techniques related to technical documentation.
+  - icon: bolt
+    h: Highly Motivated
+    p: Exceptional ability to work with others to accomplish the goal at hand. Work well in a stressful, fast paced and variable environment with tight deadlines.
+  - icon: cloud
+    h: Cloud Proficient
+    p: In depth knowledge of computer hardware, software, and accessories. Able to evaluate technical issues and develop technical solutions in accordance with product specifications.
+
+button: Prove It
